@@ -5,11 +5,11 @@
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    
-    
 }
 
-
+body {
+        background-image: blanchedalmond;
+    }
 
 .header_1 {
     display: flex;
@@ -25,12 +25,9 @@
     height: 60px;
     background-color: #429ef5;
     
-    
     .navbar {
     display: flex;
-    justify-content: space-around;
-    
-    
+    justify-content: space-between;
     }
 }
 
