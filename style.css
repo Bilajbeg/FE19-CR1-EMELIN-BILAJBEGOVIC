@@ -1,4 +1,28 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
 .header_1 {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header_2 {
+  height: 60px;
+}
+.header_2 .navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #429ef5;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.div_1 {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
