@@ -1,3 +1,4 @@
-* {
-  margin: 0;
+.navbar {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
