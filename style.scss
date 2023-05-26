@@ -3,30 +3,50 @@
     text-decoration: none;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
     
 }
+
+
 
 .header_1 {
     display: flex;
     justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     
-  
 }
 
 .header_2 {
     height: 60px;
-    background-color: background-color: #429ef5;
+    background-color: #429ef5;
+    
     
     .navbar {
     display: flex;
     justify-content: space-around;
-   /*  margin-left: 15px;
-    margin-right: 15px;
-     */
+    
+    
     }
 }
 
 .div_1 {
     display: flex;
     gap: 20px;
+}
+
+img {
+    width: 450px;
+    height: 380px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: (3,1fr);
+
 }
