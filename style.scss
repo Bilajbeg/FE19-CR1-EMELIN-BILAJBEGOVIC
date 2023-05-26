@@ -47,7 +47,11 @@ body {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    
+    {
+        p {
+            text-align: center;
+        }
+    }
 
     div {
         border: 2px solid black;
