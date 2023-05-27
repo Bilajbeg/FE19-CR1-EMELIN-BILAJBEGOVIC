@@ -68,7 +68,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
 }
 .container div {
@@ -77,6 +77,7 @@
   border-radius: 15px;
   margin: 20px;
   background-color: lightgray;
+  /* Special words I wanted to highlight so I take span to handle it */
 }
 .container div span {
   color: darkred;
@@ -121,4 +122,81 @@
   margin-top: 10px;
   text-align: center;
   font-size: 20px;
+}
+
+/* Here I added the @media scree to put the images into 2 rows for tablets and 1 row for mobile phones 
+when the resolution gets smaller ! */
+@media screen and (width < 1150px) {
+  .container {
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (width < 650px) {
+  .container {
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Here starts the scss for the about page */
+.container_about {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.container_about .div_1_about {
+  border: 2 solid black;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px gray;
+  width: 850px;
+  height: 370px;
+  margin-left: 100px;
+  background-color: darkkhaki;
+  padding-top: 20px;
+}
+.container_about .div_1_about:hover {
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+.container_about .div_2_about {
+  border: 2 solid black;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px gray;
+  width: 850px;
+  height: 370px;
+  margin-left: 500px;
+  background-color: darkkhaki;
+  padding-top: 20px;
+}
+.container_about .div_2_about:hover {
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+.container_about .div_3_about {
+  border: 2 solid black;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px gray;
+  width: 850px;
+  height: 370px;
+  margin-left: 900px;
+  background-color: darkkhaki;
+  padding-top: 20px;
+}
+.container_about .div_3_about:hover {
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#navbar_about {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+a {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
