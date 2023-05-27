@@ -10,8 +10,8 @@
 
 #p1 {
   position: absolute;
-  margin-left: 160px;
-  margin-top: -200px;
+  margin-left: 50px;
+  margin-top: -180px;
   font-size: 25px;
   text-align: center;
   /* margin-top: 15px; */
@@ -28,6 +28,7 @@
 .header_1 #font_1 {
   font-size: 30px;
   font-weight: bold;
+  text-shadow: 5px 5px 5px gray;
 }
 .header_1 #font_1:hover {
   color: coral;
@@ -39,6 +40,8 @@
   display: flex;
   gap: 20px;
   font-size: 24px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px gray;
 }
 .div_1 a:hover {
   color: coral;
@@ -57,6 +60,7 @@
 .header_2 .navbar a {
   font-weight: bold;
   font-size: 28px;
+  text-shadow: 5px 5px 5px black;
 }
 .header_2 .navbar a:hover {
   color: white;
