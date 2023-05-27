@@ -44,9 +44,4 @@ h1 {
 }
 .recipe-card a:hover {
   text-decoration: underline;
-}
-
-/* Here starts the scss for the about page */
-.container_about {
-  font-size: 35px;
 }/*# sourceMappingURL=style_1.css.map */
