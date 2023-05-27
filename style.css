@@ -60,7 +60,7 @@
 .header_2 .navbar a {
   font-weight: bold;
   font-size: 28px;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 5px 5px 5px gray;
 }
 .header_2 .navbar a:hover {
   color: white;
