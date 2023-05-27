@@ -1,15 +1,14 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 16px;
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  /* background-color: skyblue; */
 }
 
 #p1 {
+  font-size: 25px;
   text-align: center;
   margin-top: 15px;
 }
@@ -21,19 +20,19 @@
   margin-right: 15px;
   margin-top: 20px;
   margin-bottom: 10px;
-  /*  a {
-       font-family: Cursive;
-       font-style: normal;
-       font-weight: bold;
-       text-decoration: none;
-       text-transform: uppercase;
-       color: #000000;
-       font-size: 26px;
-   } */
+}
+.header_1 #font_1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.header_1 #font_1:hover {
+  color: coral;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
 }
 
 .header_2 {
-  height: 100px;
+  height: 105px;
   background-color: lightgray;
 }
 .header_2 .navbar {
@@ -44,10 +43,20 @@
   font-weight: bold;
   font-size: 28px;
 }
+.header_2 .navbar a:hover {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
 
 .div_1 {
   display: flex;
   gap: 20px;
+  font-size: 24px;
+}
+.div_1 a:hover {
+  color: goldenrod;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
 }
 
 .container img {
@@ -70,6 +79,11 @@
 }
 .container div span {
   color: darkred;
+}
+.container div span:hover {
+  color: white;
+  font-size: 26px;
+  text-shadow: 5px 5px 5px black;
 }
 
 .footer {
