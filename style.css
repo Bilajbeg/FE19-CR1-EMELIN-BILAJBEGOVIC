@@ -9,9 +9,12 @@
 }
 
 #p1 {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -200px;
   font-size: 25px;
   text-align: center;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .header_1 {
@@ -61,6 +64,7 @@
 }
 
 .container img {
+  position: relative;
   width: 100%;
   height: 350px;
   border-radius: 15px;
@@ -80,10 +84,11 @@
   /* Special words I wanted to highlight so I take span to handle it */
 }
 .container div span {
-  color: darkred;
+  color: white;
+  text-shadow: 5px 5px 5px black;
 }
 .container div span:hover {
-  color: white;
+  color: yellow;
   font-size: 26px;
   text-shadow: 5px 5px 5px black;
 }
