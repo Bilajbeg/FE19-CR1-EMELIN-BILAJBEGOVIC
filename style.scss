@@ -167,7 +167,7 @@ when the resolution gets smaller ! */
 /* Here starts the scss for the about page */
 
 .container_about {
-            font-size: 30px;
+            font-size: 23px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: center;
             
@@ -175,13 +175,13 @@ when the resolution gets smaller ! */
                 border: 2 solid black;
                 border-radius: 30px;
                 box-shadow: 10px 10px 10px gray;
-                width: 850px;
-                height: 370px;
+                width: 550px;
+                height: 350px;
                 margin-left: 100px;
                 background-color: darkkhaki;
                 padding-top: 20px;
                 &:hover {color: white;
-                    font-size: 30px;
+                    font-size: 25px;
                     text-shadow: 5px 5px 5px black;
                 }
             }
@@ -190,13 +190,13 @@ when the resolution gets smaller ! */
                 border: 2 solid black;
                 border-radius: 30px;
                 box-shadow: 10px 10px 10px gray;
-                width: 850px;
-                height: 370px;
-                margin-left: 500px;
+                width: 550px;
+                height: 350px;
+                margin-left: 400px;
                 background-color: darkkhaki;
                 padding-top: 20px;
                 &:hover {color: white;
-                    font-size: 30px;
+                    font-size: 25px;
                     text-shadow: 5px 5px 5px black;
                 }
             }
@@ -205,13 +205,13 @@ when the resolution gets smaller ! */
                 border: 2 solid black;
                 border-radius: 30px;
                 box-shadow: 10px 10px 10px gray;
-                width: 850px;
-                height: 370px;
-                margin-left: 900px;
+                width: 550px;
+                height: 350px;
+                margin-left: 800px;
                 background-color: darkkhaki;
                 padding-top: 20px;
                 &:hover {color: white;
-                    font-size: 30px;
+                    font-size: 25px;
                     text-shadow: 5px 5px 5px black;
                 }
             }
